@@ -11,7 +11,8 @@ import SwiftUI
 struct video_appApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            
+            ContentView().environmentObject(content())
         }
     }
 }

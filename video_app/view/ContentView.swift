@@ -7,10 +7,16 @@
 
 import SwiftUI
 
+
+// homeview content
 struct ContentView: View {
+  @EnvironmentObject  var model:content
     var body: some View {
+     VStack{
         Text("Hello, world!")
-            .padding()
+        Text("hello pooja")
+        }
+        
     }
 }
 
@@ -18,4 +24,5 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
+    
 }
