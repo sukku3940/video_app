@@ -10,11 +10,13 @@ import SwiftUI
 
 // homeview content
 struct ContentView: View {
-  @EnvironmentObject  var model:content
+  @EnvironmentObject  var model:contentmodel
+    
     var body: some View {
      VStack{
         Text("Hello, world!")
         Text("hello pooja")
+         
         }
         
     }

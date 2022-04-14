@@ -12,7 +12,7 @@ struct video_appApp: App {
     var body: some Scene {
         WindowGroup {
             
-            ContentView().environmentObject(content())
+            ContentView().environmentObject(contentmodel())
         }
     }
 }

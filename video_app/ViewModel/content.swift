@@ -8,7 +8,11 @@
 import Foundation
 
 
-class content:ObservableObject {
+class contentmodel:ObservableObject {
+    
+    
+    
+    
     
     
     
